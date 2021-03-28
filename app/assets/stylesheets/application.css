@@ -17,3 +17,7 @@
 .center {
   text-align: center;
 }
+
+.navbar-collapse {
+  flex-grow: initial;
+}
