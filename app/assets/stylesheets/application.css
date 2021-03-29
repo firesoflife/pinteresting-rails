@@ -21,3 +21,13 @@
 .navbar-collapse {
   flex-grow: initial;
 }
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.card-header {
+  text-align: center;
+  margin-top: 3rem;
+}

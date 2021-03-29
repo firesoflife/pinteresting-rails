@@ -1,6 +1,11 @@
 <div class="bg-dark p-5 mt-5 text-light center">
   <h1>Some Pinteresting Ideas</h1>
   <p>A Very Boring and Basic Pinterest Clone to Practice Working with Ruby on Rails</p>
+
+  <% if user_signed_in? %>
+    <h4>Thanks For Checking Out the App. Stay a while and pin some things.</h4>
+  <% else %>  
   <%= link_to "Login", new_user_session_path, class:'btn btn-outline-light me-2'%>
   <%= link_to "Join", new_user_registration_path, class:'btn btn-outline-primary ms-2'%>
+  <% end %>
 </div>
